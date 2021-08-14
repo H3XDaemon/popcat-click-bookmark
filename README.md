@@ -16,7 +16,8 @@ setInterval(function(){for(i=0;i<5;i++){document.dispatchEvent(event);}},200)})(
 在 https://popcat.click 頁面上按一下此書籤即可開點。
 
 ## 手機Chrome
-假如你有開書籤同步且已做過電腦版步驟就無需在手機上再新增一次書籤
+假如你有開書籤同步且已做過電腦版步驟
+就無需在手機上再新增一次書籤。
 直接到 https://popcat.click
 然後再搜尋欄直接搜尋你書籤的名稱
 ![image](https://user-images.githubusercontent.com/42803553/129440435-39eb288f-e36b-417e-9192-11633aa0b863.png)
