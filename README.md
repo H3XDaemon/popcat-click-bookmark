@@ -7,10 +7,17 @@ popcat.click書籤一鍵自動開點.w.
 
 ## 電腦Chrome
 新增一個書籤，把以下代碼貼在書籤的網址欄位 ↘
+
+第一種
 ```javascript
 javascript:(function(){var event=new KeyboardEvent('keydown',{key:'g',ctrlKey:true});
 setInterval(function(){for(i=0;i<5;i++){document.dispatchEvent(event);}},200)})()
 ```
+第二種
+```javascript
+javascript:(setInterval(()=>{document.dispatchEvent(new Event("keydown"))},38))()
+```
+
 ![image](https://user-images.githubusercontent.com/42803553/129440224-6508cd8f-a826-43a5-b701-f251dbfe8d45.png)
 
 在 https://popcat.click 頁面上按一下此書籤即可開點。
