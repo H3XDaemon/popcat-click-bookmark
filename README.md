@@ -15,7 +15,7 @@ setInterval(function(){for(i=0;i<5;i++){document.dispatchEvent(event);}},200)})(
 ```
 第二種
 ```javascript
-javascript:(setInterval(()=>{document.dispatchEvent(new Event("keydown"))},38))()
+javascript:(setInterval(()=>{document.dispatchEvent(new Event("keydown"))},38))
 ```
 
 ![image](https://user-images.githubusercontent.com/42803553/129440224-6508cd8f-a826-43a5-b701-f251dbfe8d45.png)
